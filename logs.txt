@@ -1,0 +1,36 @@
+commit 264d306bbef45c8c3891196dfee6b675bb3af3ca (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Olgica165005 <olgica.tanova@students.finki.ukim.mk>
+Date:   Mon Mar 27 02:01:03 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 76989c84c767b53fce16219471a9f2ef05261bea
+Merge: fc112bd 2a9a137
+Author: Olgica165005 <olgica.tanova@students.finki.ukim.mk>
+Date:   Mon Mar 27 02:11:13 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 2a9a1372d343a14e5323829b4505508468cb440a (origin/bug2, bug2)
+Author: Olgica165005 <olgica.tanova@students.finki.ukim.mk>
+Date:   Mon Mar 27 01:56:37 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit fc112bd895f58a0c53d58f5156e522d76fa16fb3 (origin/bug1, bug1)
+Author: Olgica165005 <olgica.tanova@students.finki.ukim.mk>
+Date:   Mon Mar 27 01:52:15 2023 +0200
+
+    Fix wrong loop for reading
+
+commit f66e2f00ed1a236b7420782a83147c3ffd19dd51
+Author: Olgica165005 <olgica.tanova@students.finki.ukim.mk>
+Date:   Mon Mar 27 01:35:02 2023 +0200
+
+    Add java class
+
+commit eaf969bdfb9198c50bd206ef02643e81b702ccae
+Author: Olgica165005 <olgica.tanova@students.finki.ukim.mk>
+Date:   Mon Mar 27 01:30:12 2023 +0200
+
+    Initial commit

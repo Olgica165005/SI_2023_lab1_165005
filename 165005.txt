@@ -1,0 +1,30 @@
+4. git init - иницијализација на локален Git репозиториум
+5. git remote add origin https://github.com/Olgica165005/SI_2023_lab1_165005.git - поврзување на локалниот репозиториум со оддалечениот репозиториум специфициран со дадената адреса, при што кратенката за оддалечениот репозиториум се именува origin
+6. git add . - додавање на сите untracked и modified датотеки во фазата staged (во случајов untracked датотеката README.md)
+6. git commit -m "Initial commit" - правење commit во кој што се содржат staged промените од претходниот чекор, со commit порака Initial commit
+7. git add . - додавање на сите untracked и modified датотеки во фазата staged (во случајов untracked датотеката SILab1.java)
+7. git commit -m "Add java class" - правење commit во кој што се содржат staged промените од претходниот чекор, со commit порака Add java class
+8. git push -u origin master - синхронизација на гранката master кон оддалечениот репозиториум, при што гранката master на оддалечениот репозиториум се поставува како default оддалечена гранка за гранката master на локалниот репозиториум
+9. git branch bug1 - креирање нова гранка на локалниот репозиторум со име bug1
+9. git branch bug2 - креирање нова гранка на локалниот репозиторум со име bug2
+9. git branch bug3 - креирање нова гранка на локалниот репозиторум со име bug3
+10. git checkout bug1 - префрлање на локалната гранка bug1
+11. git add . - додавање на сите untracked и modified датотеки во фазата staged (во случајов modified датотеката SILab1.java)
+11. git commit -m "Fix wrong loop for reading" - правење commit во кој што се содржат staged промените од претходниот чекор, со commit порака Fix wrong loop for reading
+12. git checkout bug2 - префрлање на локалната гранка bug2
+13. git add . - додавање на сите untracked и modified датотеки во фазата staged (во случајов modified датотеката SILab1.java)
+13. git commit -m "Fix wrong condition in filterOddNumbers" - правење commit во кој што се содржат staged промените од претходниот чекор, со commit порака Fix wrong condition in filterOddNumbers
+14. git checkout bug3 - префрлање на локалната гранка bug3
+15. git add . - додавање на сите untracked и modified датотеки во фазата staged (во случајов modified датотеката SILab1.java)
+15. git commit -m "Fix method sumEvenNumbers" - правење commit во кој што се содржат staged промените од претходниот чекор, со commit порака Fix method sumEvenNumbers
+16. git push --all - синхронизација на сите локални гранки кон оддалечениот репозиториум
+17. git checkout master - префрлање на локалната гранка master
+18. git merge bug1 - спојување на локалната гранкa bug1 кон локалната гранка master, при што не се јавуваат конфликти и спојувањето се прави со fast-forward стратегија
+19. git push --all - синхронизација на сите локални гранки кон оддалечениот репозиториум
+20. git merge bug2 - спојување на локалната гранкa bug2 кон локалната гранка master, при што не се јавуваат конфликти и спојувањето се прави со recursive стратегија
+21. git push --all - синхронизација на сите локални гранки кон оддалечениот репозиториум
+22. git checkout bug3 - префрлање на локалната гранка bug3
+23. git rebase master - правење rebase на моменталната гранка (bug3) спрема локалната гранка master
+24. git checkout master - префрлање на локалната гранка master
+25. git merge bug3 - спојување на локалната гранкa bug3 кон локалната гранка master, при што не се јавуваат конфликти и спојувањето се прави со fast-forward стратегија
+26. git push --all --force - синхронизација на сите локални гранки кон оддалечениот репозиториум, при што потребно е да се искористи --force поради тоа што локалната гранка bug3 и оддалечената гранка bug3 се diverged (и двете имаат commits што другата ги нема)
